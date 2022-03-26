@@ -27,6 +27,13 @@ const Cart = ({cart,resetHandler}) => {
                 <p> {title} </p>
                </div>
             }
+            <div className='row gx-4'>
+                <div className=' col-md-4 '><img className='img-fluid' src= {image} alt="" /></div>
+                <div><p className='col-md-8'> {title} </p></div>
+            </div>
+            <ul className=''>
+                <li></li>
+            </ul>
             <button className='btn btn-primary me-1'>Choose One</button>
             <button className='btn btn-danger' onClick={()=>resetHandler()}>reset</button>
         </div>

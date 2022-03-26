@@ -24,13 +24,13 @@ const Products = () => {
 
     return (
         <div className='row'>
-           <div className='row col-md-10 g-4'>
+           <div className='row col-md-9 g-4'>
                {
                  products.map( product => <Product key={product.id} product={product} cartHandler={cartHandler}></Product>)
                 
                }          
            </div>
-           <div className='col-md-2'>
+           <div className='col-md-3'>
                <h4>Selected Clothes</h4>
                <Cart  cart ={cart}  resetHandler={resetHandler} ></Cart>
                {/* <button onClick={()=>selectItem(choose)}>select one</button> */}
