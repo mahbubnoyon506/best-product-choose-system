@@ -1,0 +1,8 @@
+.product-page{
+    border: 1px solid gray;
+    
+}
+.product-page img{
+    width: 20vw;
+    height: 30vh;
+}
