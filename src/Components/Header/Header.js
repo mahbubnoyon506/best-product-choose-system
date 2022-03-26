@@ -7,7 +7,7 @@ const Header = () => {
         <div className='header-wrap px-5'>
             <img className='logo' src={logo} alt="" />
             <nav>
-                <a href="\home" className=''>Home</a>
+                <a href="\home">Home</a>
                 <a href="\about">About</a>
                 <a href="\shop">Shop</a>
                 <a href="sign-up">Sign Up</a>
